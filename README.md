@@ -27,6 +27,11 @@ About 90k players from the Kaggle "Mobile Games A/B Testing - Cookie Cats" datas
 
 - **Power:** about [N] players per group were needed to detect the observed gap at 80% power, against about 45,000 in the experiment. The test could reliably detect differences of about [X] points or more.
 
+## Why not peek? A simulation
+In 5,000 simulated experiments with no real effect, checking significance repeatedly and stopping at the first p < 0.05 gave false positives in 4.7% of cases with one look, 13.4% with five looks and 24.2% with twenty looks. Pre-planning the sample size (see power analysis) avoids this.
+
+![Peeking simulation](charts/peeking.png)
+
 ## Files
 | File | What it does |
 |---|---|
