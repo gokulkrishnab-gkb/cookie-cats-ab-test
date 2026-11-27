@@ -16,9 +16,10 @@ About 90k players from the Kaggle "Mobile Games A/B Testing - Cookie Cats" datas
 - One gate_30 player has 49,854 rounds, likely a bot, so rounds comparisons use the median.
 
 ## Results
-- **7-day retention (primary):** 19.02% with the gate at level 30 vs 18.20% at level 40, a 0.82-point difference (two-proportion z-test, z = 3.16, p = 0.0016).
+- **7-day retention (primary):** 19.02% with the gate at level 30 vs 18.20% at level 40, a difference of 0.82 percentage points (95% CI 0.31 to 1.33; two-proportion z-test p = 0.0016). Relative drop: 4.3%.
+- **Business scale:** about 820 fewer players active at day 7 per 100,000 installs (plausible range 310 to 1,330).
 - **1-day retention (secondary):** 44.82% vs 44.23% (p = 0.074), not statistically significant at the 5% level.
-- *In progress: confidence intervals, bootstrap, power analysis, and the ship decision.*
+- *In progress: bootstrap, power analysis, peeking simulation, multiple-testing correction and the ship decision.*
 
 ## Recommendation
 *Coming after the analysis.*
