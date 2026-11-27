@@ -20,9 +20,10 @@ About 90k players from the Kaggle "Mobile Games A/B Testing - Cookie Cats" datas
 - **Business scale:** about 820 fewer players active at day 7 per 100,000 installs (plausible range 310 to 1,330).
 - **1-day retention (secondary):** 44.82% vs 44.23% (p = 0.074), not statistically significant at the 5% level.
 - *In progress: bootstrap, power analysis, peeking simulation, multiple-testing correction and the ship decision.*
+- **Bootstrap check:** resampling gives the same 95% interval for the 7-day difference as the formula (0.31 to 1.34 points), so the result does not depend on a normal approximation.
+- **Engagement:** median game rounds are 17 vs 16 (bootstrap interval for the difference [0, 1]), so the retention gap is not accompanied by a clear change in typical playing volume.
 
-## Recommendation
-*Coming after the analysis.*
+![Bootstrap distribution](charts/bootstrap_retention7.png)
 
 ## Files
 | File | What it does |
