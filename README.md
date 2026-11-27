@@ -25,6 +25,8 @@ About 90k players from the Kaggle "Mobile Games A/B Testing - Cookie Cats" datas
 
 ![Bootstrap distribution](charts/bootstrap_retention7.png)
 
+- **Power:** about [N] players per group were needed to detect the observed gap at 80% power, against about 45,000 in the experiment. The test could reliably detect differences of about [X] points or more.
+
 ## Files
 | File | What it does |
 |---|---|
