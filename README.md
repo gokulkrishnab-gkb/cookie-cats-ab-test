@@ -32,6 +32,11 @@ In 5,000 simulated experiments with no real effect, checking significance repeat
 
 ![Peeking simulation](charts/peeking.png)
 
+## Multiple testing
+Two retention metrics were tested. After Bonferroni, Holm and Benjamini-Hochberg corrections, 7-day retention stays significant (adjusted p = 0.0031) and 1-day retention does not (adjusted p = 0.074 to 0.149). In a simulation with no real effects, testing 20 metrics produced at least one false positive 64.2% of the time uncorrected, against about 5% with Bonferroni.
+
+![Multiple comparisons](charts/multiple_comparisons.png)
+
 ## Files
 | File | What it does |
 |---|---|
